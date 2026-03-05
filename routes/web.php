@@ -1,5 +1,11 @@
 <?php
 
+use App\Http\Controllers\Controller;
+
+Route::get('/info/server', [Controller::class, 'serverInfo']);
+Route::get('/info/client', [Controller::class, 'clientInfo']);
+Route::get('/info/database', [Controller::class, 'databaseInfo']);
+
 use Illuminate\Support\Facades\Route;
 
 /*
