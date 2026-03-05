@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use App\DTO\ServerInfoDTO;
 use App\DTO\ClientInfoDTO;
 use App\DTO\DatabaseInfoDTO;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Http\JsonResponse;
+use App\Http\Request;
+use App\Support\Facades\DB;
+use App\Http\JsonResponse;
 
 class Controller
 {
